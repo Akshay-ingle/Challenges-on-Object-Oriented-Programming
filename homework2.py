@@ -3,14 +3,14 @@ class BMW:
         return "Petrol"
     
     def max_speed(self):
-        return "250 km/h"
+        return "25000 km/h"
 
 class Ferrari:
     def fuel_type(self):
         return "Petrol"
     
     def max_speed(self):
-        return "350 km/h"
+        return "35 km/h"
 
 def display_car_details(car):
     print(f"Fuel Type: {car.fuel_type()}")
